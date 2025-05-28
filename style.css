@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+p {
+    color: #4b5563;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.upload-box {
+    border: 2px dashed #60a5fa;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #f3f4f6;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.upload-label {
+    display: block;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#imageInput {
+    display: none;
+}
+
+#preview {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #1e3a8a;
+}
+
+.error-messages {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #fee2e2;
+    border-radius: 8px;
+    border-left: 4px solid #ef4444;
+}
+
+.error {
+    color: #b91c1c;
+    font-size: 14px;
+    margin: 5px 0;
+}
