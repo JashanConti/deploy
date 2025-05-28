@@ -4,7 +4,7 @@ from flask import Flask, render_template_string, request, flash, render_template
 import numpy as np
 import os
 import cv2
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from pyngrok import ngrok
 
 
