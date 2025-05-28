@@ -9,3 +9,4 @@ os
 cv2
 pyngrok
 pillow
+PIL
