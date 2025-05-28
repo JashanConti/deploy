@@ -4,3 +4,7 @@ numpy
 pandas
 sklearn
 flask
+opencv-python
+os
+cv2
+pyngrok
