@@ -8,3 +8,4 @@ opencv-python
 os
 cv2
 pyngrok
+pillow
